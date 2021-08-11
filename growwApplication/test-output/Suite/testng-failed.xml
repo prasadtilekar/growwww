@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test1.BuyStock">
+        <methods>
+          <include name="ValidateStockBuy"/>
+          <include name="loginApp"/>
+          <include name="launchApplication"/>
+          <include name="closeApp"/>
+          <include name="logoutApp"/>
+          <include name="launchBrowser"/>
+          <include name="closeObject"/>
+        </methods>
+      </class> <!-- test1.BuyStock -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test1.ExecuteGrow">
+        <methods>
+          <include name="ValidateMutualfundIcon"/>
+          <include name="closeRef"/>
+          <include name="ValidateStocksIcon"/>
+          <include name="logoutApp"/>
+          <include name="closeApp"/>
+          <include name="logInApp"/>
+          <include name="browserLaunch"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- test1.ExecuteGrow -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

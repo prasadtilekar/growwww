@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test1.ExecuteGrow">
+        <methods>
+          <include name="ValidateMutualfundIcon"/>
+          <include name="closeRef"/>
+          <include name="ValidateStocksIcon"/>
+          <include name="logoutApp"/>
+          <include name="closeApp"/>
+          <include name="logInApp"/>
+          <include name="browserLaunch"/>
+          <include name="ValidateGoldIcon"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- test1.ExecuteGrow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
