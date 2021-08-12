@@ -86,7 +86,7 @@ public class BuyStock extends BaseClass{
 	@Test 
 	public void ValidateStockBuy ()
 	{
-		testID = 100;
+		testID = 109;
 		System.out.println("Test");
 		
 		buy.ClickOnSearch();
